@@ -1,0 +1,43 @@
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #0051aa;
+    height: 60px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    
+    font-size: 40px;
+    color:white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.navItem {
+    display: inline;
+    justify-content: center;
+    padding: 15px 15px;
+}
+
+.navItem a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #1c3c5e;
+    color: white;
+    padding: 20px 20px;
+  }
+
+/* Hide the link that should open and close the topnav on small screens */
+.icon {
+  display: none;
+}

@@ -1,19 +1,18 @@
 .topnav {
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
-    background-color: #0051aa;
-    height: 60px;
+    background-color: white;
+    height: 100px;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 15px 0px #1c3c5e48;
+    padding:10px;
 }
 
-.logo {
-    
+.navlogo {
+    height: 70px;
     font-size: 40px;
-    color:white;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-weight: bold;
+    margin-left: 10px;
     padding-left: 10px;
 
 }
@@ -21,23 +20,27 @@
 .navItem {
     display: inline;
     justify-content: center;
-    padding: 15px 15px;
+    margin: 10px;
+
 }
 
+
 .navItem a{
-    color:white;
+    color: #1c3c5e;
     text-align: center;
-    text-decoration: none;
     font-size: 20px;
+    text-decoration: none;
+}
+
+#cart {
+    margin-right: 10px;
 }
 
 .topnav a:hover {
-    background-color: #1c3c5e;
-    color: white;
-    padding: 20px 20px;
+
+    color: #b80a14;
+   
+  
   }
 
 /* Hide the link that should open and close the topnav on small screens */
-.icon {
-  display: none;
-}

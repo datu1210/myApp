@@ -1,13 +1,13 @@
 import { ItemListContainer } from "./components/Container/ItemListContainer";
-import { Navbar } from "./components/NavBar/Navbar";
+import { NavBar } from "./components/NavBar/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NavBar/>
       <ItemListContainer saludo="Bienvenido a mi App"/>
-      <ItemListContainer saludo="Reutilizando componentes"/>
     </div>
   );
 }

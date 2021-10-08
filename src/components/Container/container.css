@@ -1,0 +1,29 @@
+.titulo { 
+    text-align:center;
+    margin:20px;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card{
+    box-shadow: -5px 6px 10px 2px #2a384742;
+}
+
+.cardItem{
+    text-align:center;
+}
+
+#precio{
+    font-weight:bold;
+    font-size:18px;
+}
+
+#buttonBuy{
+
+    font-family: 'Open Sans', sans-serif;
+    background: #b80a14;
+    border: none;
+    justify-content: center;
+ 
+}

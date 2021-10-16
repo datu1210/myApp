@@ -1,33 +1,26 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import CartWidget from "./CartWidget.js";
-import lightningLogo from "../../Assets/images/lightningLogo.png";
+import HTCLogo from "../../Assets/images/HTCLogo.png";
 
 import "./NavBar.css";
 
 export const NavBar = () => {
   return (
-    <>
-      <div className="topnav">
-        <img src={lightningLogo} alt="lightning" className="navlogo" />
-
-        <ul className="navList">
-          <li className="navItem">
-            <a href="#home">Home</a>
-          </li>
-          <li className="navItem">
-            <a href="#about">About</a>
-          </li>
-          <li className="navItem">
-            <a href="#categorias">Categorias</a>
-          </li>
-          <li className="navItem">
-            <a href="#contacto">Contacto</a>
-          </li>
-          <li className="navItem">
+    <header className="topnav">
+      <NavLink exact to="/">
+        <img src={HTCLogo} alt="lightning" className="navlogo" />
+      </NavLink>
+      <div>
+        <nav>
+          <NavLink exact to="/">Home</NavLink>
+          <NavLink exact to="/productos">Productos</NavLink>
+          <NavLink exact to="/contacto">Contacto</NavLink>
+          <Link to="/cart">
             <CartWidget />
-          </li>
-        </ul>
+          </Link>
+        </nav>
       </div>
-    </>
+    </header>
   );
 };

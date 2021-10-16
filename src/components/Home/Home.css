@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.container-home{
+    width: 90%;
+    margin: 0px auto;
+    display:auto;
+}
+
+.container-about{
+    width: 95%;
+    margin: 0px auto;
+    display:flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+.containerTexto{
+
+    margin: 20px;
+}
+
+.cardGroup{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.serviceCard{
+    margin:20px;
+}
+
+
+
+@media screen and (max-width:768px) {
+.container-home{
+    grid-template-areas: "slider slider slider"
+                            "imagen_about imagen_about imagen_about"
+                            "about about about"
+                            "services services services"
+                            "products products products";
+}
+        
+}

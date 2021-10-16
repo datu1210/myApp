@@ -4,7 +4,7 @@ import "./NavBar.css";
 const CartWidget = () => {
     return (
         <>
-        <a href="#shop"><i class="fa fa-shopping-cart"></i>  Carrito</a>
+        <i className="fa fa-shopping-cart">Carrito</i>
         </>
     );
 };

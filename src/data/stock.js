@@ -22,7 +22,8 @@ export const stock = [
         name: "SUPRESOR DS41-120",
         description: "Descargador del Tipo II, para sobretensiones en sistemas monopolares",
         price: 530000,
-        img: DS41
+        img: DS41,
+        stock: 10
     },
     {
         id: 2,
@@ -30,7 +31,8 @@ export const stock = [
         name: "SUPRESOR DS42-120",
         description: "Descargador del Tipo II, para sobretensiones en sistemas bifasicos",
         price: 650000,
-        img: DS42
+        img: DS42,
+        stock: 10
     },
     {
         id: 3,
@@ -38,7 +40,8 @@ export const stock = [
         name: "SUPRESOR DS43-120",
         description: "Descargador del Tipo II, para sobretensiones en sistemas trifásicos",
         price: 900000,
-        img: DS253VG
+        img: DS253VG,
+        stock: 10
     },
     {
         id: 4,
@@ -46,7 +49,8 @@ export const stock = [
         name: "SUPRESOR DS44-120",
         description: "Descargador del Tipo II, para sobretensiones en sistemas trifásicos + N",
         price: 1130000,
-        img: DAC13VG
+        img: DAC13VG,
+        stock: 10
     },
 
     {
@@ -54,8 +58,9 @@ export const stock = [
         categoria: "automatizacion",
         name: "Contactor CBW12",
         description: "Contactor 12",
-        price: 1130000,
-        img: contactor2
+        price: 130000,
+        img: contactor2,
+        stock: 10
     },
 
     
@@ -65,7 +70,8 @@ export const stock = [
         name: "Contactor CBW18",
         description: "Contactor 18",
         price: 1130000,
-        img: contactor
+        img: contactor,
+        stock: 10
     },
     
     {
@@ -74,7 +80,8 @@ export const stock = [
         name: "Rele 1,2-1,8",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: rele
+        img: rele,
+        stock: 10
     },
     {
         id: 8,
@@ -82,7 +89,8 @@ export const stock = [
         name: "Temporizador",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: temporizador
+        img: temporizador,
+        stock: 10
     },
 
     {
@@ -91,7 +99,8 @@ export const stock = [
         name: "Lampara LED 12w",
         description: "Lampara 12",
         price: 1130000,
-        img: panel12w
+        img: panel12w,
+        stock: 10
     },
 
     
@@ -101,7 +110,8 @@ export const stock = [
         name: "Bombillo LED 15w",
         description: "Lampara 18",
         price: 1130000,
-        img: bombillo15w
+        img: bombillo15w,
+        stock: 10
     },
     
     {
@@ -110,7 +120,8 @@ export const stock = [
         name: "Reflector 100w",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: reflector100w
+        img: reflector100w,
+        stock: 10
     },
     {
         id: 12,
@@ -118,7 +129,8 @@ export const stock = [
         name: "Bombillo bulbo 40w",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: bombillo30w
+        img: bombillo30w,
+        stock: 10
     },
     {
         id: 13,
@@ -126,7 +138,8 @@ export const stock = [
         name: "Breaker 3x12",
         description: "Lampara 12",
         price: 1130000,
-        img: breaker
+        img: breaker,
+        stock: 10
     },
 
     
@@ -136,7 +149,8 @@ export const stock = [
         name: "Toma doble",
         description: "Lampara 18",
         price: 1130000,
-        img: toma
+        img: toma,
+        stock: 10
     },
     
     {
@@ -145,7 +159,8 @@ export const stock = [
         name: "Cable # 12",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: cable12
+        img: cable12,
+        stock: 10
     },
     {
         id: 16,
@@ -153,7 +168,8 @@ export const stock = [
         name: "Multitoma 6p",
         description: "Rele de Sobrecarga",
         price: 1130000,
-        img: multitoma
+        img: multitoma,
+        stock: 10
     },
 
 

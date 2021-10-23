@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 import { useParams } from 'react-router'
-import { pedirProductos } from "../../../helpers/pedirProductos"
+import { UIContext } from '../../context/UIContext'
+import { pedirProductos } from "../../helpers/pedirProductos"
 import { ItemList } from "./ItemList"
 import NavProd from "./NavProd"
 
@@ -9,11 +10,9 @@ import NavProd from "./NavProd"
 export const ItemListContainer = () => {
 
     const [items, setItems] = useState([])
-    const [loading, setLoading] = useState(false)
-
+    const {loading, setLoading} = useContext(UIContext)
 
     const {categoriaId} = useParams()
-    console.log(categoriaId)
 
     useEffect(()=>{
         setLoading(true)
@@ -35,7 +34,7 @@ export const ItemListContainer = () => {
                 setLoading(false)
             })
 
-    }, [categoriaId])
+    }, [categoriaId, setLoading])
 
 
     return (
@@ -45,10 +44,7 @@ export const ItemListContainer = () => {
                 loading 
                     ? <h2>cargando productos...</h2>
                     :
-                    <>
-                    
                     <ItemList productos={items}/>
-                    </>
             }
             
         </section>

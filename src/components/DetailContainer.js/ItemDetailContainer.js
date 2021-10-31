@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import { useParams } from 'react-router';
-import { pedirProductos } from "../../helpers/pedirProductos"
+import { getFirestore } from '../../firebase/config';
+/* import { pedirProductos } from "../../helpers/pedirProductos" */
 import ItemDetail from './ItemDetail';
 
 const ItemDetailContainer = () => {
@@ -13,16 +14,31 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirProductos()
+        const db = getFirestore()
+        const productos = db.collection('productos')
+        const item = productos.doc(itemId)
+
+        item.get()
+        .then ((doc) =>{
+            setItem({
+               id: doc.id,
+                ...doc.data() 
+            })
+        })
+        .finally(()=>{
+            setLoading(false)
+        })
+
+/*         pedirProductos()
             .then(res => {
 
                 setItem(res.find(prod => prod.id === Number(itemId)))
             })
             .finally(() => {
                 setLoading(false)
-            })
+            }) */
 
-    }, [itemId])
+    }, [itemId, setLoading])
 
 
     return (

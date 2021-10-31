@@ -21,7 +21,7 @@ export const CartScreen = () => {
       ) : (
         <>
           {carrito.map((prod) => (
-            <div>
+            <div className="my-4">
               <h4>{prod.name}</h4>
               <p>cantidad:{prod.cantidad}</p>
               <p>Total: {prod.price * prod.cantidad}</p>

@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .container-about{
-    width: 95%;
+    width: 90%;
     margin: 0px auto;
     display:flex;
     justify-content:space-evenly;

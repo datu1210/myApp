@@ -87,8 +87,8 @@ export const stock = [
         id: 8,
         categoria: "automatizacion",
         name: "Temporizador",
-        description: "Rele de Sobrecarga",
-        price: 1130000,
+        description: "Temporizador",
+        price: 120000,
         img: temporizador,
         stock: 10
     },
@@ -98,7 +98,7 @@ export const stock = [
         categoria: "iluminacion",
         name: "Lampara LED 12w",
         description: "Lampara 12",
-        price: 1130000,
+        price: 18000,
         img: panel12w,
         stock: 10
     },
@@ -109,7 +109,7 @@ export const stock = [
         categoria: "iluminacion",
         name: "Bombillo LED 15w",
         description: "Lampara 18",
-        price: 1130000,
+        price: 15000,
         img: bombillo15w,
         stock: 10
     },
@@ -118,8 +118,8 @@ export const stock = [
         id: 11,
         categoria: "iluminacion",
         name: "Reflector 100w",
-        description: "Rele de Sobrecarga",
-        price: 1130000,
+        description: "Reflector",
+        price: 60000,
         img: reflector100w,
         stock: 10
     },
@@ -127,8 +127,8 @@ export const stock = [
         id: 12,
         categoria: "iluminacion",
         name: "Bombillo bulbo 40w",
-        description: "Rele de Sobrecarga",
-        price: 1130000,
+        description: "bombilo 40",
+        price: 30000,
         img: bombillo30w,
         stock: 10
     },
@@ -137,7 +137,7 @@ export const stock = [
         categoria: "electricidad",
         name: "Breaker 3x12",
         description: "Lampara 12",
-        price: 1130000,
+        price: 60000,
         img: breaker,
         stock: 10
     },
@@ -147,8 +147,8 @@ export const stock = [
         id: 14,
         categoria: "electricidad",
         name: "Toma doble",
-        description: "Lampara 18",
-        price: 1130000,
+        description: "toma doble",
+        price: 5000,
         img: toma,
         stock: 10
     },
@@ -157,8 +157,8 @@ export const stock = [
         id: 15,
         categoria: "electricidad",
         name: "Cable # 12",
-        description: "Rele de Sobrecarga",
-        price: 1130000,
+        description: "cable 12 - 100m",
+        price: 180000,
         img: cable12,
         stock: 10
     },
@@ -166,8 +166,8 @@ export const stock = [
         id: 16,
         categoria: "electricidad",
         name: "Multitoma 6p",
-        description: "Rele de Sobrecarga",
-        price: 1130000,
+        description: "multitoma",
+        price: 35000,
         img: multitoma,
         stock: 10
     },

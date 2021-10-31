@@ -8,6 +8,7 @@ import { UIProvider } from "./context/UIContext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CartScreen } from "./components/CartScreen/CartScreen";
+import { Contacto } from "./components/Contacto/Contacto.js";
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
                 <ItemDetailContainer />
               </Route>
               <Route exact path="/contacto">
-                <h1>Vista de contacto</h1>
+                <Contacto/>
               </Route>
               <Route exact path="/cart">
                 <CartScreen />
